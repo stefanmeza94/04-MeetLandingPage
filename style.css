@@ -1,0 +1,34 @@
+:root {
+  /* colors */
+  --dark-blue: rgba(77, 150, 168);
+  --dark-violet: rgb(133, 95, 177);
+  --very-dark: rgb(40, 40, 61);
+  --light-gray: rgb(135, 135, 157);
+  --light-blue: rgb(143, 227, 249);
+  --light-violet: rgb(217, 184, 255);
+  --very-white: rgb(250, 250, 250);
+
+  /* font */
+  --ff-primary: 'Red Hat Display', sans-serif;
+  --fs-primary: 18px;
+  --line-primary: 26px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--ff-primary);
+  font-size: var(--fs-primary);
+  line-height: var(--line-primary);
+}
+
+h1,
+h2 {
+  margin: 0;
+}
+
+h1 {
+  font-size: 64px;
+  line-height: 64px;
+}

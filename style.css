@@ -152,6 +152,7 @@ h2 {
 .header_description .btn_blue:active,
 .header_description .btn_blue:hover {
   background-color: #71C0D4;
+  cursor: pointer;
 }
 
 .header_description .btn_violet {
@@ -164,6 +165,7 @@ h2 {
 .bc-image .btn_violet:active,
 .bc-image .btn_violet:hover {
   background-color: #B18BDD;
+  cursor: pointer;
 }
 
 .circle {

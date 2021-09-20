@@ -39,6 +39,7 @@ h2 {
   font-size: 40px;
   line-height: 44px;
   margin: 24px 0;
+  font-weight: 900;
 }
 
 .btn_violet {
@@ -117,7 +118,8 @@ h2 {
 
 .header_description p {
   color: var(--light-gray);
-  margin-bottom: 32px;
+  margin-bottom: 24px;
+  line-height: 24px;
 }
 
 .header_description div {
@@ -135,7 +137,7 @@ h2 {
   font-size: 16px;
   padding: 20px 45px;
   border-radius: 25px;
-  font-weight: 500;
+  font-weight: 900;
 }
 
 .btn span {
@@ -144,12 +146,24 @@ h2 {
 
 .header_description .btn_blue {
   background-color: var(--dark-blue);
-  margin-bottom: 16px;
+  margin-bottom: 24px;
 }  
+
+.header_description .btn_blue:active,
+.header_description .btn_blue:hover {
+  background-color: #71C0D4;
+}
 
 .header_description .btn_violet {
   background-color: var(--dark-violet);
   margin-bottom: 148px;
+}
+
+.header_description .btn_violet:active,
+.header_description .btn_violet:hover,
+.bc-image .btn_violet:active,
+.bc-image .btn_violet:hover {
+  background-color: #B18BDD;
 }
 
 .circle {
@@ -171,6 +185,10 @@ h2 {
   background-color: rgba(135, 135, 157, .25);
   position: absolute;
   top: -150%;
+}
+
+.circle p {
+  font-weight: 900;
 }
 
 section {
@@ -200,7 +218,7 @@ section {
 
 .information .overline {
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 900;
   line-height: 26px;
   letter-spacing: 4px;
   text-transform: uppercase;
@@ -337,21 +355,13 @@ section {
   }
 
   .header_groups-right {
-    grid-area: images1;
+    grid-area: images2;
     right: -20%;
   }
-
-  /* .header_groups-left img {
-    width: 120%;
-  } */
 
   .header_description {
     grid-area: content;
     max-width: 100%;
-  }
-
-  .header_groups-right {
-    grid-area: images2;
   }
 
   .image {

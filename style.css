@@ -296,7 +296,7 @@ section {
   .header_description h2 {
     font-size: 64px;
     line-height: 64px;
-    max-width: 400px;
+    max-width: 450px;
   }
 
   .header_description .btn_blue {
@@ -367,6 +367,10 @@ section {
   .image {
     max-width: 1196px;
     margin: 64px auto;
+  }
+
+  .footer {
+    background-position: 50% 15%;
   }
 
   .bc-image {
